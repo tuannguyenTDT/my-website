@@ -3,19 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web của tôi</title>
+
+    <title>Chúc mừng sinh nhật 🎂</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Xin chào GitHub Pages!</h1>
+    <!-- Background -->
+    <div class="stars"></div>
 
-    <p>Đây là website đầu tiên của tôi.</p>
+    <!-- Balloons -->
+    <div class="balloons">
+        <div class="balloon balloon-1">🎈</div>
+        <div class="balloon balloon-2">🎈</div>
+        <div class="balloon balloon-3">🎈</div>
+        <div class="balloon balloon-4">🎈</div>
+        <div class="balloon balloon-5">🎈</div>
+    </div>
 
-    <button onclick="sayHello()">
-        Click vào đây
-    </button>
+    <!-- Main -->
+    <main class="container">
+
+        <div class="cake">🎂</div>
+
+        <h1>
+            Chúc Mừng Sinh Nhật!
+        </h1>
+
+        <div class="name">
+            🎉 Nguyễn Văn A 🎉
+        </div>
+
+        <p class="subtitle">
+            Chúc bạn có một ngày sinh nhật thật vui vẻ! ❤️
+        </p>
+
+        <button id="openWish">
+            🎁 Mở lời chúc
+        </button>
+
+        <div id="wish" class="wish hidden">
+            <p>
+                Chúc bạn tuổi mới thật nhiều niềm vui,
+                thật nhiều sức khỏe và luôn gặp may mắn! 🌸
+            </p>
+
+            <p>
+                Mong rằng mọi điều bạn mong muốn
+                đều sẽ trở thành hiện thực. ✨
+            </p>
+
+            <div class="heart">
+                ❤️
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Fireworks -->
+    <div id="fireworks"></div>
 
     <script src="script.js"></script>
 </body>
